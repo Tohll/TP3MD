@@ -1,6 +1,5 @@
 langage: java
 sudo: false
-
 addons:
   apt:
     packages:
@@ -11,4 +10,4 @@ jdk:
       
 script:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-- mvn test -B
+  - mvn test -B
